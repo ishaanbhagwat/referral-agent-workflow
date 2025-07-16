@@ -46,7 +46,7 @@ exit
 
 ```bash
 # Clone the repository (if not already done)
-git clone <your-repo-url>
+git clone referral-agent-workflow
 cd agentic-referral-workflow/backend
 
 # Create virtual environment
