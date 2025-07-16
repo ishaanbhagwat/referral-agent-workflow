@@ -88,6 +88,11 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 The application will be available at:
 - **API**: http://localhost:8000
 
+### 4. Send a File for Processing
+```
+curl -X POST -F "file=@/Users/$(whoami)/Downloads/yourfilename.ext" http://localhost:8000/upload-document
+```
+
 #### What Happens on Startup
 
 1. **FastAPI Server**: Starts on port 8000
